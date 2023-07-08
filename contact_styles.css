@@ -1,0 +1,214 @@
+/* Other pages besides "index.html"*/
+
+/* Website's name on the left hand side ------------------------------------------------------------------------------ */
+#menu{
+  position: fixed; /*搭配javascrip，讓menu可以跟著跑*/
+  top: 0;
+  background-color: #3E6075;
+  height: 50px;
+  width: 100%;
+  z-index: 9999;}
+#header #logo{position: fixed;margin-left:20px;top: 13px;background-color:transparent;}
+#header #logo a{color:#FFFFFF;text-decoration: none;}
+
+/* Menu--------------------------------------------------------------------------------------------------------------- */
+nav ul{margin:0; padding:0; list-style:none;}
+
+.sticky-menu {
+    position: fixed;
+    top: 0;
+    background-color:#3E6075;
+    line-height:normal;
+    top: 10px; right: 20px;
+  }
+
+  .sticky-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sticky-menu li {
+    display: inline-block;
+    margin-right: 20px; /*調整選項間距*/
+    text-transform:uppercase;
+    position:relative;
+    margin:0 50px 0 0;
+    padding:0;
+  }
+
+  .sticky-menu a {
+    display: block;
+    padding:5px 10px;
+    text-decoration: none;
+    color:#FFFFFF;text-decoration: none;
+  }
+  .sticky-menu li:hover > a{
+    color:white;
+    background-color: rgba(255, 255, 255, 0.1);} /*感應到滑鼠，底色變化*/
+
+
+/* Copyright---------------------------------------------------------------------------------------------------------- */
+#copyright footer{display:block; padding:8vh 0 0 0;text-align:center;color:white;background-color:#809999;height:12vh;weight:100%;}
+#copyright *{margin:0; padding:0;}
+
+
+/* Contact Page*/
+/* Contact Section----------------------------------------------------------------------------------------------------- */
+#ct {
+    background-color: #ECECFF;
+    padding: 100px;
+    margin: 0;
+    height:100%;
+    weight:100%;
+  }
+.btn{  /* submit鍵的顏色*/
+  color: white;
+  background-color:green;
+}
+
+
+/* Profile Page*/
+/* Profile Section----------------------------------------------------------------------------------------------------- */
+#profile {
+  background-color: #ECECFF;
+  display: flex;
+}
+
+
+#profile   h5 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color:#3C3C3C;
+  line-height: 40px;
+}
+
+#profile  p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color:black;
+  line-height: 24px;
+}
+
+
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #3b434a;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #82909c;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000079;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #004B97;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color:white;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+.resume .resume-item:last-child {
+  padding-bottom: 0;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;/* 圓形 */
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #82909c;
+}
+
+
+
+
+/* Portfolio Page*/
+/* Portfolio Section----------------------------------------------------------------------------------------------------- */
+#content {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  background-color: #ECECFF;
+  padding: 100px;
+  margin: 0;
+  height:100%;
+  weight:100%;
+}
+.portfoliogrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 將商品分為三欄 */
+  grid-gap: 20px; /* 設定商品間的間距 */
+}
+
+
+.project-title a{color:black;text-decoration: none;padding: 10px;}
+.project-title {margin-top: 20px;}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-numbers current,.page-numbers,.next page-numbers{
+  color:black;
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #7B7B7B;
+  padding:5px 10px;
+}
+
+.page-numbers:hover {
+  color:white;
+  border: 1px solid transparent;
+  color: white;
+  background-color: #D0D0D0;} /*感應到滑鼠變灰色 */
+

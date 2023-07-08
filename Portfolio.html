@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="contact_styles.css" rel="stylesheet">
+        <title>Contact</title>
+        <script>
+          //搭配javascrip，讓menu可以跟著跑
+          var menu = document.getElementById('menu');
+          var initialOffset = menu.offsetTop;
+
+          window.addEventListener('scroll', function() {
+            var scrollOffset = window.pageYOffset;
+            menu.style.top = initialOffset + scrollOffset + 'px';
+          });
+        </script>
+    </head>
+    <body>
+      <!-- Menu  -->
+      <div id="menu">
+        <header id="header" class="hoc clear">
+          <div id="logo" class="fl_left">
+            <a href="index.html">Yuan-Ting Liang(梁媛婷)</a>
+          </div>
+          <nav class="sticky-menu">
+           <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="Profile.html">Profile</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+
+		<!-- Lists of Projects -->
+		<div id="content" class="site-content">
+        <h3><b>PORTFOLIO</b></h3>
+        <hr>
+        <p>Check Out Some of My Works.</p>
+				<main id="main" class="site-main">
+				<div class="portfoliogrid">
+    <!-- 1st project -->
+				  <article class="projects">
+					<header class="project_items">
+					<div class="project_entry">
+						  <a href="#"><img src="clement-helardot-95YRwf6CNw8-unsplash.jpg" alt="project1_pic" style="max-width: 100%; max-height: 200px;"></a>
+					</div>
+					<h6 class="project-title"><a href="#" rel="bookmark"><b>Web Crawler For Shopping Websites</b></a></h6>
+					<p>Keyword: python、web crawler、selenium</p>
+					</header>
+				  </article>
+      <!-- 2nd project -->
+          <article class="projects">
+          <header class="project_items">
+          <div class="project_entry">
+              <a href="#"><img src="adem-ay-ik_AuIWeBBM-unsplash.jpg" alt="project2_pic" style="max-width: 100%; max-height: 200px;"></a>
+          </div>
+          <h6 class="project-title"><a href="#" rel="bookmark"><b>Line Bot For Work</b></a></h6>
+          <p>Keyword: line bot、work、image/text message</p>
+          </header>
+          </article>
+      <!-- 3rd project -->
+          <article class="projects">
+          <header class="project_items">
+          <div class="project_entry">
+              <a href="#"><img src="3.jpg" alt="project3_pic" style="max-width: 100%; max-height: 200px;"></a>
+          </div>
+          <h6 class="project-title"><a href="#" rel="bookmark"><b>Project3</b></a></h6>
+          <p>_</p>
+          </header>
+          </article>
+      <!-- 4th project -->
+          <article class="projects">
+            <header class="project_items">
+            <div class="project_entry">
+              <a href="#"><img src="4.jpg" alt="project4_pic" style="max-width: 100%; max-height: 200px;"></a>
+          </div>
+          <h6 class="project-title"><a href="#" rel="bookmark"><b>Project4</b></a></h6>
+          <p>_</p>
+          </header>
+          </article>
+			 </div>
+			<!-- 分頁 -->
+
+			 <nav class="pagination">
+			 <span class="page-numbers current">1</span>
+			 <a class="page-numbers" href="#">2</a>
+			 <a class="next page-numbers" href="#">Next »</a>
+			 </nav>
+     </main>
+	  </div>
+
+	<!-- +++++ Footer Section +++++ -->
+
+    <div id="copyright">
+      <footer>Copyright &copy; 2023 - All Rights Reserved - Yuan-Ting Liang</footer>
+    </div>
+
+  </body>
+</html>
+
+
+    <!-- Placed at the end of the document so the pages load faster
+
+    https://www.free-css.com/free-css-templates/page263/moschino
+    -->
