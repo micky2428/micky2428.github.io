@@ -3424,3 +3424,15 @@ input, select, textarea {
 	background: #fff;
 	border: 2px solid #82909c;
   }
+
+/* ABOUT特質標籤 */
+  .trait-tag {
+	display: inline-block;
+	margin-right: 8px; /* 添加一些右邊距，以便標籤之間有一定的間隔 */
+	padding: 4px 8px;
+	background-color: #000079;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 14px;
+	font-weight: bold;
+  }
