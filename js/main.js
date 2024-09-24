@@ -95,12 +95,3 @@
 
 })(jQuery);
 
-
-document.getElementById('menu-toggle').addEventListener('click', function() {
-    var mobileNav = document.getElementById('mobile-nav');
-    if (mobileNav.style.display === 'block') {
-        mobileNav.style.display = 'none';  // 隱藏選單
-    } else {
-        mobileNav.style.display = 'block'; // 顯示選單
-    }
-});
