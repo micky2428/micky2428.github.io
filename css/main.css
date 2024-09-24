@@ -3436,3 +3436,50 @@ input, select, textarea {
 	font-size: 14px;
 	font-weight: bold;
   }
+
+/* 選單設定 */
+.desktop-menu {
+    display: block;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* 手機版 - 使用媒體查詢 */
+@media screen and (max-width: 768px) {
+    .desktop-menu {
+        display: none; /* 隱藏桌面版菜單 */
+    }
+
+    .mobile-menu {
+        display: block; /* 顯示手機版菜單 */
+    }
+
+    #mobile-nav {
+        display: none; /* 默認隱藏手機版選單 */
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #mobile-nav li {
+        margin-bottom: 10px;
+    }
+
+    #mobile-nav li a {
+        text-decoration: none;
+        padding: 10px;
+        display: block;
+        background-color: #333;
+        color: #fff;
+    }
+
+    #menu-toggle {
+        display: inline-block;
+        background-color: #333;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
